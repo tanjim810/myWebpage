@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Converter</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<header>
+		<div id="navbar" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a href="index.html">Home</a>
+					<a href="maxmin.html">Maximum-Minimum</a>
+					<a href="magic.html">Magic!</a>
+				</div>
+		</div>
+
+		<span onclick="openNav()">&#9776;</span>
+		<h1>
+			THE MULTIPURPOSE WEBSITE
+		</h1>
+	</header>
+	
+	<div id="conversion">
+		<p>
+			<label>Convert</label>
+			<input id="inputs" type="number">
+			
+			<select onchange="massTypeSelector(this.value)">
+				<option value=0>kg to lb</option>
+				<option value=1>lb to kg</option>
+			</select>
+			
+			<button type="button" onclick="massConverter(document.getElementById('inputs').value)">GO</button>
+			
+			<p1 id="output" type="number"></p1>
+		</p>
+	</div>
+	
+	<script src="javascript.js"></script>
+	
+	<footer>
+		<p1>About &nbsp &nbsp &nbsp &nbsp</p1>
+		<p1>Contact Us &nbsp &nbsp &nbsp &nbsp</p1>
+		<p1>Join Us</p1>
+	</footer>
+</body>
+</html>

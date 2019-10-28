@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>The Multipurpose Website</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<header>
+		<div id="navbar" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a href="converter.html">Converter</a>
+					<a href="maxmin.html">Maximum-Minimum</a>
+					<a href="magic.html">Magic!</a>
+				</div>
+		</div>
+
+		<span onclick="openNav()">&#9776;</span>
+		<h1>
+			THE MULTIPURPOSE WEBSITE
+		</h1>
+	</header>
+	
+	<h2>
+		Welcome to the Multipurpose Website
+	</h2>
+	
+	<div1 id="quoteDisplay"></div1>
+	
+	<div class="btn-group">
+		<div id="grp1">
+			<button type="button" onclick="changeColor(document.getElementById('red'))" id="red">color1</button>
+			<button type="button" onclick="changeColor(document.getElementById('blue'))" id="blue">color2</button>
+		</div>
+		<div id="grp2">
+			<button type="button" onclick="changeColor(document.getElementById('silver'))" id="silver">color3</button>
+			<button type="button" onclick="changeColor(document.getElementById('golden'))" id="golden">color4</button>
+		</div>
+	</div>
+	
+	<script src="javascript.js"></script>
+	
+	<footer>
+		<p1>About &nbsp &nbsp &nbsp &nbsp</p1>
+		<p1>Contact Us &nbsp &nbsp &nbsp &nbsp</p1>
+		<p1>Join Us</p1>
+	</footer>
+</body>
+</html>

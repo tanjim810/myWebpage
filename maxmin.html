@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Maximum-Minimum</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<header>
+		<div id="navbar" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a href="index.html">Home</a>
+					<a href="converter.html">Converter</a>
+					<a href="magic.html">Magic!</a>
+				</div>
+		</div>
+
+		<span onclick="openNav()">&#9776;</span>
+		<h1>
+			THE MULTIPURPOSE WEBSITE
+		</h1>
+	</header>
+	<pre>
+		<label>Input Series of Number</label>   <input id="inputs" oninput="userInput(this.value)" onchange="userInput(this.value)">
+		Max: <p1 id="output1"></p1>
+		Min: <p1 id="output2"></p1>
+		Sum: <p1 id="output3"></p1>
+		Average: <p1 id="output4"></p1>
+		Reverse Order: <p1 id="output5"></p1>
+	</pre>
+
+	<script src="javascript.js"></script>
+	
+	<footer>
+		<p1>About &nbsp &nbsp &nbsp &nbsp</p1>
+		<p1>Contact Us &nbsp &nbsp &nbsp &nbsp</p1>
+		<p1>Join Us</p1>
+	</footer>
+</body>
+</html>

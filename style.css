@@ -1,0 +1,270 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(cover.jpg);
+	background-size: 40%;
+	background-position: center;
+}
+
+header
+{
+	background-color: black;
+	height: 75px;
+	background-size: auto;
+	background-position: center;
+}
+
+.overlay {
+	height: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.9);
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+	top: 10%;
+	width: 100%;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-top: 30px;
+}
+
+.overlay a {
+	padding: 25px;
+	text-decoration: none;
+	font-size: 60px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+span
+{
+	position: absolute;
+	font-size: 30px;
+	cursor: pointer;
+	filter: invert(1);
+	left: 50%;
+	margin-top: 9px;
+	padding: 5px;
+	border: 3px solid black;
+}
+
+footer
+{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 10px;
+   width: 100%;
+   color: white;
+   background-color: black;
+   opacity: 0.9;
+   text-align: center;
+   padding: 43px;
+}
+
+#quoteDisplay
+{
+	position: absolute;
+	left: 37.5%;
+	text-align: center;
+	bottom: 120px;
+	border: 1px solid green;
+	padding: 10px;
+	background-color: silver;
+	font-size: 20px;
+}
+
+#red
+{
+	background-color: tomato;
+	color: tomato;
+	border: 1px solid black;
+}
+#blue
+{
+	background-color: teal;
+	filter: brightness(130%);
+	color: teal;
+	border: 1px solid maroon;
+}
+#silver
+{
+	background-color: silver;
+	color: silver;
+	border: 1px solid green;
+}
+#golden
+{
+	background-color: goldenrod;
+	color: goldenrod;
+	border: 1px solid black;
+}
+#redStyle
+{
+	background-color: tomato;
+	border: 1px solid black;
+	position: absolute;
+	left: 37.5%;
+	text-align: center;
+	bottom: 120px;
+	padding: 10px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+#blueStyle
+{
+	background-color: teal;
+	filter: brightness(130%);
+	color: maroon;
+	border: 1px solid maroon;
+	position: absolute;
+	left: 37.5%;
+	text-align: center;
+	bottom: 120px;
+	padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16.5px;
+}
+#silverStyle
+{
+	background-color: silver;
+	color: green;
+	border: 1px solid green;
+	position: absolute;
+	left: 37.5%;
+	text-align: center;
+	bottom: 120px;
+	padding: 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+}
+#goldenStyle
+{
+	background-color: goldenrod;
+	color: black;
+	border: 1px solid black;
+	position: absolute;
+	left: 37.5%;
+	text-align: center;
+	bottom: 120px;
+	padding: 10px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 19.5px;
+}
+#grp1
+{
+	position: absolute;
+	left: 72%;
+	text-align: center;
+	bottom: 137px;
+	padding: 10px;
+}
+#grp2
+{
+	position: absolute;
+	left: 72%;
+	text-align: center;
+	bottom: 115px;
+	padding: 10px;
+}
+
+#conversion
+{
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0, 0.8);
+	padding: 35px;
+	margin-top: 175px;
+	font-size: 20px;
+	border: 1px solid white;
+}
+#output
+{
+	left: 50%;
+}
+
+pre
+{
+	color: white;
+	background-color: rgba(0,0,0, 0.8);
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 4%;
+	border: 1px solid white;
+	padding: 18px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	line-height: 180%;
+}
+h1
+{
+	color: white;
+	position: absolute;
+	margin-top: 13px;
+	margin-left: 13px;
+	font-family: cursive, sans-serif;
+}
+h2
+{
+	color: white;
+	text-align: center;
+	margin-top: 180px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 60px;
+}
+h3
+{
+	margin-top: -8%;
+	color: white;
+}
+
+#inputBox
+{
+	height: 200px;
+	width: 435px;
+	margin-top: -4%;
+	margin-left: -12%;
+}
+
+.btn-group1
+{
+	clear: both;
+	display: table;
+	margin-top: -20px;
+	margin-left: 10px;
+}
+#btn
+{
+	padding: 8px;
+}
+p1
+{
+	font-size: 20px;
+}

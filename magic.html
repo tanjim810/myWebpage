@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Magic!</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<header>
+		<div id="navbar" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a href="index.html">Home</a>
+					<a href="converter.html">Converter</a>
+					<a href="maxmin.html">Maximum-Minimum</a>
+				</div>
+		</div>
+
+		<span onclick="openNav()">&#9776;</span>
+		<h1>
+			THE MULTIPURPOSE WEBSITE
+		</h1>
+	</header>
+	<pre>
+		<h3>Magic!</h3>
+		<textarea id="inputBox"></textarea>
+		<div class="btn-group1">
+			<button id="btn" type="button" onclick="document.getElementById('inputBox').value=''">Clear it</button>
+			<button id="btn" type="button" onclick="capitalize()">Capitalize</button>
+			<button id="btn" type="button" onclick="userInput2(0)">Sort</button>
+			<button id="btn" type="button" onclick="userInput2(1)">Reverse</button>
+			<button id="btn" type="button" onclick="userInput2(2)">Strip Blank</button>
+			<button id="btn" type="button" onclick="userInput2(3)">Add Numbers</button>
+			<button id="btn" type="button" onclick="userInput2(4)">Shuffle</button>
+		</div>
+	</pre>
+
+	<script src="javascript.js"></script>
+	
+	<footer>
+		<p1>About &nbsp &nbsp &nbsp &nbsp</p1>
+		<p1>Contact Us &nbsp &nbsp &nbsp &nbsp</p1>
+		<p1>Join Us</p1>
+	</footer>
+</body>
+</html>
